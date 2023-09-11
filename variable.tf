@@ -7,13 +7,13 @@ variable "access_key" {
   description = "The access_key that belongs to the IAM user"
   type        = string
   sensitive   = true
-  default     = "AKIASQMLDE4RWIN7KVTV"
+  default     = ""
 }
 variable "secret_key" {
   description = "The secret_key that belongs to the IAM user"
   type        = string
   sensitive   = true
-  default     = "KYm+chpLIR4N+ir7f2ZLiVQQtqfAXa34ZUJXckvs"
+  default     = ""
 }
 variable "subnet_cidr_public" {
   description = "cidr blocks for the public subnets"
